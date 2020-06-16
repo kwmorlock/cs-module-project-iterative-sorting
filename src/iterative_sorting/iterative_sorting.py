@@ -31,9 +31,13 @@ print(f'testing after', selection_sort(arr)) #test with simple numbers
 # TO-DO:  implement the Bubble Sort function below
 def bubble_sort(arr):
     # Your code here
+    for i in range(0, len(arr) - 1):
+
 
 
     return arr
+
+print(f'testing after bubble', bubble_sort(arr)) #test with simple numbers
 
 '''
 STRETCH: implement the Count Sort function below
